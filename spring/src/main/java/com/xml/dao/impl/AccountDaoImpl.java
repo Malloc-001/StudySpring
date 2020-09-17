@@ -1,6 +1,6 @@
-package com.xd.dao.impl;
+package com.xml.dao.impl;
 
-import com.xd.dao.IAccountDao;
+import com.xml.dao.IAccountDao;
 
 public class AccountDaoImpl implements IAccountDao {
 

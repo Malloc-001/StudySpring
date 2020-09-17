@@ -1,4 +1,4 @@
-package com.xd.service;
+package com.xml.service;
 
 /**
  *  业务层的接口

@@ -3,8 +3,8 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="AccountService" class="com.xd.service.impl.AccountServiceImpl" scope="prototype">
+    <bean id="AccountService" class="com.xml.service.impl.AccountServiceImpl" scope="prototype">
         <property name="AccountDao" ref="AccountDao"></property>
     </bean>
-    <bean id="AccountDao" class="com.xd.dao.impl.AccountDaoImpl"></bean>
+    <bean id="AccountDao" class="com.xml.dao.impl.AccountDaoImpl"></bean>
 </beans>

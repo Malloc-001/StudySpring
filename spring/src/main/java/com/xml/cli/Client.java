@@ -1,8 +1,6 @@
-package com.xd.cli;
+package com.xml.cli;
 
-import com.xd.dao.impl.AccountDaoImpl;
-import com.xd.service.IAccountService;
-import com.xd.service.impl.AccountServiceImpl;
+import com.xml.service.impl.AccountServiceImpl;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -11,7 +9,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class Client {
     public static void main(String[] args) {
-        ApplicationContext ac = new ClassPathXmlApplicationContext("application.xml");
+        ApplicationContext ac = new ClassPathXmlApplicationContext("applicationXml.xml");
         System.out.println(ac.getBean("AccountService", AccountServiceImpl.class));
         System.out.println(ac.getBean("AccountService", AccountServiceImpl.class));
 

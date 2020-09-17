@@ -1,7 +1,7 @@
-package com.xd.service.impl;
+package com.xml.service.impl;
 
-import com.xd.dao.IAccountDao;
-import com.xd.service.IAccountService;
+import com.xml.dao.IAccountDao;
+import com.xml.service.IAccountService;
 
 public class AccountServiceImpl implements IAccountService {
     private IAccountDao AccountDao;

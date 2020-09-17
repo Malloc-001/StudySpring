@@ -1,4 +1,4 @@
-package com.xd.dao;
+package com.annotation.dao;
 
 /**
  * 账户的持久层接口
