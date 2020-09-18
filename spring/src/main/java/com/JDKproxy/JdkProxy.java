@@ -1,5 +1,6 @@
 package com.JDKproxy;
 
+import com.JDKproxy.aspect.MyAspect;
 import com.JDKproxy.dao.IUserDao;
 
 import java.lang.reflect.InvocationHandler;
@@ -24,6 +25,13 @@ public class JdkProxy implements InvocationHandler {
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        return null;
+        MyAspect myAspect = new MyAspect();
+//        前增强
+        myAspect.check();
+//        在目标上调用方法，并传入参数
+        Object obj = method.invoke(iUserDao, args);
+//        后增强
+        myAspect.log();
+        return obj;
     }
 }
