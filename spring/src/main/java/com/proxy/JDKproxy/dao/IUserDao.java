@@ -1,4 +1,4 @@
-package com.JDKproxy.dao;
+package com.proxy.JDKproxy.dao;
 
 public interface IUserDao {
     public void addUser();

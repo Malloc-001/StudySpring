@@ -1,6 +1,6 @@
-package com.JDKproxy.dao.impl;
+package com.proxy.JDKproxy.dao.impl;
 
-import com.JDKproxy.dao.IUserDao;
+import com.proxy.JDKproxy.dao.IUserDao;
 
 public class UserDaoImpl implements IUserDao {
     @Override

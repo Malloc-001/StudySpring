@@ -1,7 +1,7 @@
-package com.JDKproxy;
+package com.proxy.JDKproxy;
 
-import com.JDKproxy.dao.IUserDao;
-import com.JDKproxy.dao.impl.UserDaoImpl;
+import com.proxy.JDKproxy.dao.IUserDao;
+import com.proxy.JDKproxy.dao.impl.UserDaoImpl;
 
 public class JdkTest {
     public static void main(String[] args) {

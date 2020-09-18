@@ -1,4 +1,4 @@
-package com.JDKproxy.aspect;
+package com.proxy.CGLIB.aspect;
 
 public class MyAspect {
     public void check(){

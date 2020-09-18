@@ -1,7 +1,7 @@
-package com.JDKproxy;
+package com.proxy.JDKproxy;
 
-import com.JDKproxy.aspect.MyAspect;
-import com.JDKproxy.dao.IUserDao;
+import com.proxy.JDKproxy.aspect.MyAspect;
+import com.proxy.JDKproxy.dao.IUserDao;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
